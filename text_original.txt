@@ -1,0 +1,16 @@
+In traditional PSO, the velocity is added to the particle on
+each dimension to update the particle, thus it is a distance
+measure. If the velocity is larger, the particle may explore
+more distant areas. Similarly, the new velocity in the
+permutation scenario represents the possibility that the
+particle changes. If the velocity is larger, the particle is more
+likely to change to a new permutation sequence. The velocity
+update formula remains the same. However the velocity is
+limited to absolute values since it only represents the
+difference between particles. The particle update process is
+changed as follows: the velocity is normalized to the range of
+0 to I by dividing it by the maximum range of the particle.
+Then each position randomly determines if there is a swap
+with a probability determined by the velocity. If a swap is
+required, the position will set to the value of same position in
+nBesf by swapping values.
