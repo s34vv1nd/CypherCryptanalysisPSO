@@ -1,1 +1,1 @@
-# CypherCryptanalysisPSO
+# SubstitutionCypherCryptanalysisPSO
